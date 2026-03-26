@@ -50,6 +50,3 @@ For navigation to the exit:
 
 ## Note
 This repository focuses on the MATLAB control and sensor-processing side of the project. Arduino was used as the interface layer, but firmware development was not part of my role.
-
-## Why This Project Matters
-This project demonstrates real-world engineering by combining hardware assembly, sensor integration, and software logic to solve a multi-step autonomous navigation problem.
