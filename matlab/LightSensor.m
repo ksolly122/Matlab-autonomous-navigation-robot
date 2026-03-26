@@ -1,4 +1,4 @@
-function [tHeReAlDoRE] = LightSensor(robotName, ldrPin)
+function [theRealDoor] = LightSensor(robotName, ldrPin)
 
 % Capture user input for desired postion 
    desiredPosition = -90;
@@ -54,10 +54,10 @@ for i = 1:4
     turnAngle(i) = angleArray(a,b);
 end
 
-tHeDoRe = sum(turnAngle)/4;
+theDoor = sum(turnAngle)/4;
 
-writePosition(frontScanServo,tHeDoRe)
+writePosition(frontScanServo,theDoor)
 
-tHeReAlDoRE = 180 - round(tHeDoRe * 180,1);
+theRealDoor = 180 - round(theDoor * 180,1);
 
 end
