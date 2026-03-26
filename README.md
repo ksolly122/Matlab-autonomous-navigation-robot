@@ -31,13 +31,6 @@ For navigation to the exit:
 - Servo head used for scanning and data collection
 - Sensors used for distance and light detection
 
-## Key Concepts
-- Sensor-based navigation
-- Real-time data processing
-- Angle and distance calculations
-- Hardware and software integration
-- Team-based engineering
-
 ## Included Files
 - matlab/ServoScan.m
 - matlab/ServoChallenge.mlx
