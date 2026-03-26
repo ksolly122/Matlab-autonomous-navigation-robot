@@ -22,7 +22,7 @@ I developed the MATLAB control logic for the servo scanning system and sensor pr
 
 For navigation to the exit:
 - Captured light sensor readings during scanning
-- Detected two light sources indicating the doorway
+- Detected two light sources indicating the closed doorway
 - Calculated direction and guided the robot toward the exit
 
 ## System Design
